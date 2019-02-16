@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+
+spring:
+    devtools:
+      restart:
+        exclude:  static/**,public/**
+        enabled:  true
